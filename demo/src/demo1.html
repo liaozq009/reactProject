@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello World</title>
+</head>
+
+<body>
+  <h2>Add React in One Minute</h2>
+  <p>This page demonstrates using React with no build tooling.</p>
+  <p>React is loaded as a script tag.</p>
+
+  <!-- 将放置React组件在这个div中 -->
+  <div id="like_button_container"></div>
+  <hr>
+  <div id="times"></div>
+  <hr>
+  <div id="toggle"></div>
+  <hr>
+  <div id="login"></div>
+  <hr>
+  <div id="temperature"></div>
+  <hr>
+  <div id="container"></div>
+
+  <!-- 开发环境 加载React. -->
+  <!-- 注意: 在生产环境部署时, 需要替换 "development.js" 为"production.min.js". -->
+  <!-- <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> -->
+
+  <!-- 生产环境 -->
+  <script crossorigin  src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+  <script crossorigin  src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+
+  <!-- 加载我们的 React组件. -->
+  <script src="./babel_js/like_button.js"></script>
+</body>
+
+</html>

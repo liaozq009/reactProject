@@ -1,0 +1,1 @@
+npx babel --watch js--out-dir ./babel_js --presets react-app/prod 
